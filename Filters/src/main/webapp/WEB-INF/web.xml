@@ -21,5 +21,8 @@
         <filter-name>authenticationFilter</filter-name>
         <url-pattern>/login</url-pattern>
     </filter-mapping>
+    <welcome-file-list>
+        <welcome-file>login.html</welcome-file>
+    </welcome-file-list>
 
 </web-app>
